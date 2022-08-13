@@ -1,2 +1,1 @@
-# self-healing-system
-.
+# Drug Discovery using Quantum
