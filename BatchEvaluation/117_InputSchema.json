@@ -1,0 +1,25 @@
+{
+    "version": "1",
+    "molFile": "s3://amazon-braket-qceddstack-042446165320-us-west-2/100_ideal.mol2"
+    "runMode": "ALL",
+    "optParams": {
+        "qa": {
+            "shots": 10000
+        },
+        "sa": {
+            "shots": 10000
+        }
+    },
+    "modelParams": {
+        "M": [1, 2, 3, 4, 5],
+        "D": [8]
+    },
+    "devicesArns": [
+        "arn:aws:braket:::device/qpu/d-wave/DW_2000Q_6",
+        "arn:aws:braket:::device/qpu/d-wave/Advantage_system4",
+        "arn:aws:braket:us-west-2::device/qpu/d-wave/Advantage_system6"
+    ],
+    "ccResources": [
+        [4, 8]
+    ]
+}
