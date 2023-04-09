@@ -1,6 +1,6 @@
 {
     "version": "1",
-    "molFile": "s3://amazon-braket-qceddstack-042446165320-us-west-2/100_ideal.mol2"
+    "molFile": "s3://amazon-braket-qceddstack-042446165320-us-west-2/100_ideal.mol2",
     "runMode": "ALL",
     "optParams": {
         "qa": {
