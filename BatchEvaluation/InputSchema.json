@@ -1,0 +1,21 @@
+{
+    "version": "string",
+    "runMode": "string",
+    "molFile": "string",
+    "modelVersion": "string",
+    "experimentName": "string",
+    "optParams": {
+        "qa": {
+            "shots": "int"
+        },
+        "sa": {
+            "shots": "int"
+        }
+    },
+    "modelParams": {
+        "M": "int []",
+        "D": "int []"
+    },
+    "devicesArns": "string []",
+    "ccResources": "[int, int] []",
+}
